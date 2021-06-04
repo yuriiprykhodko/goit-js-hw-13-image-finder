@@ -1,5 +1,20 @@
-<article class="example">
-  <h1>HTML-фрагменты</h1>
-
-  <div class="background"></div>
-</article>
+<div class="buttons">
+  <form class="search-form" id="search-form">
+    <input
+      type="text"
+      name="query"
+      autocomplete="off"
+      placeholder="Search images..."
+    />
+  </form>
+  <button type="button" class="btn" data-action="load-more">
+    <span
+      class="spinner-border spinner-border-sm sppiner is-hidden"
+      role="status"
+      aria-hidden="true"
+    ></span>
+    <span class="label">Показать еще</span>
+  </button>
+</div>
+<ul class="gallery"></ul>
+<div id="box" class="box"></div>
